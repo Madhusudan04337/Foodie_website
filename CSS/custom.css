@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #18082f;
+    font-family: system-ui;
+}
+
+.webMargin{
+    margin: 0 10%;
+}
+
+.heardPart, .MainContainer1{
+    width: 100%;
+}
+.logoSize{
+    max-width: 200px;
+}
+
+
+.login{
+    padding: 10px 18px;
+    border-radius: 15px;
+    font-size: large;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.signUp{
+    padding: 10px 18px;
+    border-radius: 15px;
+    font-size: large;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0000ff;
+    font-weight: 600;
+}
+.signUp:hover{
+    background-color: #ffffff;
+    color: #0000ff;
+}
+.middlePart, .rightPart{
+    align-content: center;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+}
+.Menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.Menu{
+    list-style-type: none;
+    display: flex;
+}
+.Menu li{
+    margin-right: 35px;
+    cursor: pointer;
+}
+.Menu li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+.Menu li a:hover{
+    text-decoration: underline;
+}
+
+.MainContainer1{
+    display: flex;
+    margin: 60px 0px;
+}
+.M1left h1{
+    font-size: 78px;
+    color: #ffffff;
+}
+.M1left p{
+    margin: 30px 0px;
+    color: #ffffff;
+    font-size: 30px;
+}
+.M1left{
+    width: 50%;
+}
+.playButton{
+    padding: 0px 20px; 
+    max-width: 80px;
+}
+.btns button{
+    padding: 15px 20px;
+    border-radius: 15px;
+    background-color: #f05e00;
+    color: #ffffff;
+    border: none;
+    font-size: large;
+    margin-right: 20px;
+}
+.btns button:hover{
+    cursor: pointer;
+    color: #f05e00;
+    background-color: #ffffff;
+}
+.btns span{
+    padding: 15px 20px;
+    border-radius: 15px;
+    color: #ffffff;
+    border: none;
+    font-size: large;
+    position: relative;
+    top: 10px;    
+}
+.spanLabel {
+    position: absolute;
+    width: 150px;
+    top: 2px;
+}
+.btns span{
+    cursor:default;
+}
+.img_bundle{
+    margin-top: 124px;
+    display: flex;
+}
+.img_dish{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.m-left{
+    margin-left: -35px;
+}
+.line-margin{
+    margin-bottom: 90px;
+}
+
+.dishCount{
+    background-color: rgba(7, 207, 157, 0.788); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 23px; 
+    font-weight: 600; 
+    color: #13082b;
+}
+.M1right{
+    width: 50%;
+    text-align: center;
+}
+.banner_img{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    box-shadow: -21px 55px 57px rgba(0, 0, 0, 0.4);
+}
+.bannerimgdiv {
+    width: 350px;
+    height: 350px;
+    margin-top: 60px;
+    margin-left: 40%;
+    border: 20px solid #fc4113;
+    border-radius: 50%;
+}
+.bannerimg-ab {
+    width: 82%;
+    margin: auto;
+}
+.btn{
+    background-color: #13082b;
+    color: #ffffff;
+    border-radius: 35px;
+    padding: 3px;
+    font-size: large;
+    margin-right: 20px;
+    border: 2px solid #13082b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover{  
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+.btnContainer{
+    margin-top: 50px;
+    display: flex;
+}
+.btnMargin{
+    margin: 0px 12px;
+}
+.MainContainer2{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.heading{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+.MainContainer2 .cardContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.MainContainer2 .card{
+    border-radius: 20px;
+    padding: 25px;
+    width: 30%;
+    height: 48vh;
+}
+.MainContainer2 .card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.MainContainer2 .card-tbtn{
+    padding: 10px 20px;
+    background-color: #0084fffa;
+    color: #ffffff;
+    font-size: larger;
+    border-radius: 15px;
+    border: none;
+}
+.MainContainer2 .card-body{
+    text-align: center;
+}
+.MainContainer2 .card-footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.MainContainer2 .card-footer p{
+    color: #ffffff;
+    font-size: 30px;
+}
+.MainContainer2 .card-footer button{
+    background-color: #f05e00;
+    color: #ffffff;
+    font-size: 28px;
+    border-radius: 50%;
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+.MainContainer2 .card-footer button:hover{
+    cursor: pointer;
+    color: #f05e00;
+    background-color: #ffffff;
+}
+.MainContainer3{
+    width: 100%;
+    display: flex;
+}
+.M3left{
+    width: 50%;
+}
+.M3left h2{
+    font-size: 73px;
+    color: #ffffff;
+}
+.M3left p{
+    margin: 30px 0px;
+    color: #ffffff;
+    font-size: 26px;
+}
+.btn-blue{
+    background-color: #0084fffa;
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 15px;
+    font-size: larger;
+    margin-right: 20px;
+    border: none;
+}
+.btn-blue:hover{
+    color: #f05e00;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.M3right{
+    margin-top: 50px;
+    width: 50%;
+    align-content: center;
+    text-align: center;
+}
+
+.MainContainer4{
+    width: 100%;
+    margin-top: 110px;
+}
+.cardContainerM4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cardM4{
+    width: 30%;
+    height: 48vh;
+}
+.card-headerM4{
+    display: flex;
+    justify-content: center;
+}
+.card-bodyM4{
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+}
+.clientImg{
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    border: 2px solid transparent;
+    box-shadow: -51px 6px 36px rgba(0, 0, 0, 0.3)
+}
+.client_img_br{
+    border: 8px solid #f05e00;
+    height: 196px;
+    width: 196px;
+    border-radius: 50%;
+}
+.MainContainer5{
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10%;
+}
+.logoM5{
+    max-width: 200px;
+    width: 198px;
+}
+.card-footerM5 ul{
+    list-style-type: none;
+    display: flex;
+    gap: 8;
+}
+.ftitle{
+    color: #ffffff;
+    font-size: x-large;
+}
+.flist ul{
+    list-style-type: none;
+    margin: 30px 0px;
+}
+.flist ul>li{
+    margin-bottom: 10px;
+}
+.flist ul>li>a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.card-border{
+    border: 2px solid #ccc
+}
+.card-img-h{
+    max-width: 35px; 
+    height: 35px
+}
+.card-img-b{
+    border-radius: 50%; 
+    height: 300px; 
+    width: 300px
+}
+.dummyHeight20{
+    height: 20vh
+}
+.social-img{
+    width: 36px; 
+    margin-right: 10px;
+}
